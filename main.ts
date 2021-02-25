@@ -22,5 +22,6 @@ basic.forever(function () {
     soundExpression.giggle.play()
     basic.pause(500)
     basic.showIcon(IconNames.Happy)
+    basic.pause(500)
     soundExpression.giggle.play()
 })
