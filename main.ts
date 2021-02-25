@@ -1,4 +1,5 @@
 basic.forever(function () {
+    soundExpression.giggle.play()
     basic.showLeds(`
         . . # . .
         . . # . .
@@ -6,14 +7,20 @@ basic.forever(function () {
         . . # . .
         . . # . .
         `)
+    soundExpression.giggle.play()
     basic.pause(500)
     basic.showIcon(IconNames.Heart)
+    soundExpression.giggle.play()
     basic.pause(500)
     basic.showIcon(IconNames.SmallHeart)
+    soundExpression.giggle.play()
     basic.pause(500)
     basic.showIcon(IconNames.Heart)
+    soundExpression.giggle.play()
     basic.pause(500)
     basic.showString("JNV")
+    soundExpression.giggle.play()
     basic.pause(500)
     basic.showIcon(IconNames.Happy)
+    soundExpression.giggle.play()
 })
